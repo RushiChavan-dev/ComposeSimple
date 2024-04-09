@@ -21,22 +21,22 @@ import com.example.exampledemo.DataItem
 
 
 
-@Composable
-fun AgentDetails(dataItem:DataItem){
-    Box (
-
-    ){
-        Image(
-            painter = rememberAsyncImagePainter(dataItem.fullPortrait),
-            contentDescription = null,
-            modifier = Modifier.align(Alignment.Center)
-                .graphicsLayer {
-                    translationY = (-50).toFloat()
-                    translationX = (-100).toFloat()
-                }
-
-
-            )
-    }
-
-}
+//@Composable
+//fun AgentDetails(dataItem:DataItem){
+//    Box (
+//
+//    ){
+//        Image(
+//            painter = rememberAsyncImagePainter(dataItem.fullPortrait),
+//            contentDescription = null,
+//            modifier = Modifier.align(Alignment.Center)
+//                .graphicsLayer {
+//                    translationY = (-50).toFloat()
+//                    translationX = (-100).toFloat()
+//                }
+//
+//
+//            )
+//    }
+//
+//}
